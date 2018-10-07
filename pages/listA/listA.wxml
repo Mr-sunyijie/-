@@ -1,0 +1,15 @@
+<block wx:for='{{ newsList }}'>
+    <navigator url='../detail/detail?content={{ item.content }}&title={{ item.title }}&newsID={{ item.id }}'>
+        <view class='newsList-item'>
+            <image src='{{ item.imageUrls[0] }}' class='cover'></image>
+            <view class='content'>
+                <view>
+                    <text>{{ item.title }}</text>
+                </view>
+                <view>
+                    <text class='time'>{{ item.publishDateStr }}</text>
+                </view>
+            </view>
+        </view>
+    </navigator>
+</block>

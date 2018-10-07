@@ -1,0 +1,11 @@
+<block wx:for='{{ comments }}'>
+    <view>
+        <view class='source'>
+            <text >{{ item.source }}</text>
+        </view>
+        <view class='content'>
+            <text class='content-text'>{{ item.content }}</text>
+        </view>
+    </view>
+</block>
+<view wx:if='{{ hasNext }}' class='next'>没有更多评论啦！！！</view>

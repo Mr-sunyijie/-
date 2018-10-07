@@ -1,0 +1,26 @@
+.cover{
+    width:32%;
+    height:160rpx;
+    border-radius:2rpx;
+
+}
+
+.newsList-item{
+    border-bottom:1rpx solid #ccc;
+    padding:15rpx;
+
+}
+
+.content{
+    width:64%;
+    display:inline-block;
+    font-size:30rpx;
+    color:#222;
+    margin-left:22rpx;
+    line-height: 66rpx;
+
+}
+.time{
+    font-size:29rpx;
+    color:#aaa;
+}

@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/listA/listA",
+    "pages/listB/listB",
+    "pages/detail/detail",
+    "pages/comment/comment"
+  ],
+  "window":{
+    "backgroundColor": "#fff",
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#d00000",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#cdcdcd",
+    "selectedColor": "#d81e06",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "热点",
+      "iconPath": "images/index.png",
+      "selectedIconPath": "images/indexActive.png"
+    },
+    {
+       "pagePath": "pages/listA/listA",
+       "text": "娱乐",
+       "iconPath": "images/listA.png",
+       "selectedIconPath": "images/listAActive.png" 
+    },
+    {
+        "pagePath": "pages/listB/listB",
+        "text": "科技",
+        "iconPath": "images/listB.png",
+        "selectedIconPath": "images/listBActive.png"
+    }
+    ]
+  }
+}

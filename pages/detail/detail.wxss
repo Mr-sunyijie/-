@@ -1,0 +1,13 @@
+.title{
+    font-size: 20pt;
+}
+.comment{
+    color: #d00000;
+}
+.content{
+    padding:50rpx;
+    line-height:30pt;
+    font-size:14pt;
+    color: gray;
+
+}

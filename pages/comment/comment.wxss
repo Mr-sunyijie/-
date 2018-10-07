@@ -1,0 +1,26 @@
+.content{
+    background:rgb(255, 255, 238);
+    width:83%;
+    margin:10rpx auto;
+    line-height:47rpx;
+    border:1px dashed;
+    /* font-size:85rpx; */
+    padding:20rpx 20rpx 40rpx 30rpx;
+}
+
+.source{
+    color:#888;
+    margin-left:12rpx;
+}
+.content-text{
+    font-size:20px;
+    line-height: 50px;
+
+}
+.next{
+    border-left:5rpx solid #d00000;
+    font-size:30rpx;
+    margin-top:31rpx;
+    padding:13rpx;
+
+}

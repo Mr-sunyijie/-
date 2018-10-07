@@ -1,0 +1,10 @@
+<view class='title'>
+    <text>{{ title }}</text>
+</view>
+<import src="../../wxParse/wxParse.wxml"/>
+<template is="wxParse" data="{{wxParseData:content.nodes}}"/>
+<navigator url='../comment/comment?newsID={{ newsID }}'>
+    <view class='comment'>
+        <text>查看评论</text>
+    </view>
+</navigator>
